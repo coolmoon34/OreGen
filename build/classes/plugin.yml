@@ -1,0 +1,16 @@
+name: OreGen
+main: com.xorelixgames.OreGen
+version: 1.0
+author: electromatter
+
+commands:
+    og:
+        description: Shows list of commands.
+
+permissions:
+    og.reload:
+        description: Reloads the config file.
+        default: false
+    og.chances:
+        description: lists the chances of blocks occuring
+        default: false
