@@ -17,7 +17,7 @@ public class Commands implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command command, String commandLabel, String[] args) {
 		if (commandLabel.equalsIgnoreCase("og")) {
 			if (args.length == 0) {
-                                sender.sendMessage(ChatColor.GREEN + "===== OreGenerator Commands ===== \n" + "/og reload   Reloads the config file.\n" + "/og chances  lists out possable blocks and their respecitve chances of occuring");
+                                sender.sendMessage(ChatColor.GREEN + "===== OreGenerator Commands ===== \n" + "/og reload   Reloads the config file.\n" + "/og chances  lists out possible blocks and their respective chances of occuring");
 				return true;
 			} else {
 				if (args[0].equalsIgnoreCase("reload")) {
